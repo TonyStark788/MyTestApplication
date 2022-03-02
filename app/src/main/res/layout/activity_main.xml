@@ -17,4 +17,18 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="My First GitHub Project"
+        android:textSize="30sp"
+        android:textColor="@color/purple_500"
+        android:gravity="center"
+        android:onClick="onClick_text"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
